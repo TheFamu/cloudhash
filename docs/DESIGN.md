@@ -3,7 +3,7 @@
 ## Objective
 
 The goal is to write a complex data structure store with client and server in a
-single go binary that's easily deployable to aws or to host locally.
+single go binary that's easily deployable to aws or to self-host locally.
 
 ## Stack
 

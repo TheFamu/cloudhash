@@ -1,14 +1,21 @@
 # Todos
 
-* [ ] **Write Lambda Server(less) Code**
-  - Needs to talk to DynamoDB
-  - Needs to enforce limits on cloud usage
+* [ ] **Write API Key Generation Code**
+  - Needs to hash key and store to DB via DataStore interface
 
-* [ ] **Write Self-Hosted Server Code**
-  - Needs to talk to SQLite DB
+* [ ] **Write API Endpoint Code**
+  - See endpoints list in [DESIGN.md](docs/DESIGN.md)
+  - Needs to use DataStore interface to talk to storage backends
 
 * [ ] **Write DataStore (neutral) Interface Code**
   - Interface that can talk to DynamoDB or SQLite
+
+* [ ] **Write Lambda Server(less) Code**
+  - Needs to talk to DynamoDB via DataStore inteface
+  - Needs to enforce limits on cloud usage
+
+* [ ] **Write Self-Hosted Server Code**
+  - Needs to talk to SQLite DB via DataStore interface
 
 * [ ] **Write CLI Client Code**
   - Needs to handle argv
