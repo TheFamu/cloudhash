@@ -12,7 +12,7 @@ accessing the api.
 Two main reasons:
 
 1. Get some experience writing something in go.
-2. Get some experience with deploying to the cloud (gh actions, kubernetes, terraform, aws).
+2. Get some experience with deploying to the cloud (gh actions, terraform, aws lambda & dynamodb).
 
 ### More to come soon...
 
